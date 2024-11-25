@@ -1,0 +1,743 @@
+
+*{
+    padding: 0 !important;
+    margin: 0;
+    box-sizing: border-box !important;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+  color: #0c0c0c;
+  background-color: #ffffff;
+ 
+
+  
+}
+
+.carousel-inner{
+  height: 500px !important;
+}
+.carousel-indicators {
+  position: absolute !important;
+  bottom: 20px;
+  left: 0; 
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px; 
+  z-index: 2; 
+}
+
+.carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important; 
+  border-radius: 50% !important; 
+  background-color: #fff !important; 
+  margin-right: 10px; 
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  background-color: #ffc107 !important;
+  transform: scale(1.3) !important;
+}
+
+
+.background-image-container {
+  position: relative !important;
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  
+}
+.background-image {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background-image img {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar-brand{
+    margin-left: 3.5em !important;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav a{
+    color: #fff !important;
+}
+
+.right-nav{
+    margin-left: 7em !important;
+}
+
+.center-nav{
+    margin-left: 15em !important;
+}
+
+.hero-section{
+  top: 20% !important;
+  left: 8% !important;
+}
+
+.hero-section h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    
+}
+
+.discount-section{
+  margin-top: 3em !important;
+}
+
+
+.discount-item {
+  width: 40em !important;
+}
+
+.image-container{
+  width: 12em !important;
+  border: 7px solid orange !important;
+  padding: 0.2em;
+}
+.image-container img{
+  width: 100% !important;
+  transition: transform all 0.2s;
+}
+
+.image-container img:hover{
+ transform: scale(1.05) !important;
+  
+}
+
+.discount-item div p{
+  font-family: 'Dancing Script', cursive;
+}
+
+.our-menu-section{
+  margin-top: 8em !important;
+  margin: 0 auto !important;
+  
+}
+
+.our-menu-section .menu-container .menu-item.col-4{
+  width: 25em !important;
+  
+  
+ 
+}
+
+.menu-item.col-4 img{
+  max-width: 100% !important;
+}
+
+
+.about-item img{
+  width: 80% !important;
+}
+
+.about-item h3{
+  font-size: 3rem !important;
+}
+
+.about-item p{
+  font-size: 1.2rem !important;
+}
+
+.our-menu-section .lh-lg, .about-item h3, footer h3, form h2, .review-section h2{
+  font-family: 'Dancing Script', cursive !important;
+}
+
+.reservation-section{
+  margin-top: 7em !important;
+  margin: 0 auto !important;
+}
+
+.reservation-form{
+  margin-left: 2em !important;
+}
+
+form h2, .review-section h2{
+  font-size: 3rem !important;
+}
+
+input.form-control{
+  width: 100% !important;
+  border:0.5px solid #0c0c0c !important;
+  padding-right: 20em!important;
+  padding-left: 1em !important;
+  padding-top: 0.6em !important;
+  padding-bottom: 0.6em !important;
+  margin-top: 0.5em !important;
+  
+}
+
+.map img{
+  width: 100% !important;
+  height: 100% !important;
+  margin-right: auto !important;
+  margin-top: 1em !important;
+  
+}
+
+.carousel-btns button {
+  width: 60px !important;
+  height: 60px; 
+  font-size: 1.5rem; 
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  margin-left: 1em !important;
+  opacity: 1 !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 20px !important; 
+  height: 20px;
+  
+}
+
+.footer-item li a{
+  font-size: 1.2rem !important;
+}
+
+
+@media (max-width: 1399.98px) { 
+
+ .nav-item .nav-link{
+  font-size: 0.8rem !important;
+ }
+
+ .navbar-brand{
+  margin-left: 2em !important;
+ 
+ }
+
+ .center-nav{
+  margin-left: 15em !important;
+ }
+
+ .right-nav{
+  margin-left: 11em !important;
+ }
+
+ .background-image{
+  width: auto!important;
+  height: auto;
+  min-height: 100vh;
+ 
+}
+
+.background-image img{
+  width: auto !important;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero-section{
+  top: 27% !important;
+  left: 5% !important;
+}
+
+
+.carousel-item h1{
+  font-size: 2.5rem !important;
+}
+
+.carousel-item p{
+  font-size: 0.8rem !important;
+}
+
+.our-menu-section .menu-container .menu-item.col-4{
+  width: 22em !important;
+ 
+}
+
+ }
+
+
+
+
+
+@media (max-width: 1199.98px) { 
+
+
+  .background-image{
+    width: 100%!important;
+    height: 100%;
+    min-height: 100vh;
+   
+  }
+
+  .background-image img{
+    width: 100vw !important;
+    height: 100%;
+   
+  }
+  
+   .center-nav{
+    margin-left: 8em !important;
+   }
+  
+   .right-nav{
+    margin-left: 2em !important;
+   }
+
+   .carousel-inner{
+    height: 400px !important;
+  }
+
+  .hero-section h1{
+    font-size: 5rem !important;
+    
+}
+
+  .our-menu-section .menu-container .menu-item.col-4{
+    width: 18em !important;
+   
+  }
+  
+  input.form-control{
+    padding-right: 15em!important;
+    padding-left: 0.5em !important;
+    margin-top: 0.5em !important;
+    padding-bottom: 0 !important;
+    
+  }
+
+  form h2, .review-section h2{
+    font-size: 2.5rem !important;
+  }
+  
+  .map img{
+    width: 95% !important;
+    margin-left: 0.5em !important;
+    margin-bottom: 3.5em !important;
+    
+  }
+
+  .carousel-item div div .male-customer-div,.female-customer-div{
+    padding: 1.2em !important;
+  }
+ 
+
+
+}
+
+
+
+
+@media (max-width: 991.98px) { 
+
+  .background-image{
+    width: 100%!important;
+    height: 100%;
+    min-height: 80vh;
+   
+  }
+
+  .background-image img{
+    width: 100vw !important;
+    height: 80%;
+   
+  }
+
+  .navbar-toggler{
+  margin-left: 35em !important;
+  width: 5em;
+  }
+
+  .hero-section{
+    top: 10% !important;
+  }
+  
+  .hero-section h1{
+      font-size: 4rem !important;
+      
+  }
+
+  .carousel-indicators {
+    bottom: 0!important;
+    
+   
+  }
+
+  .our-menu-section{
+    padding-bottom: 8em !important;
+  
+    
+  }
+  
+  .our-menu-section .menu-container .menu-item.col-4{
+   width: 25em !important;
+   justify-content: space-evenly !important;
+
+  }
+
+  .menu-container{
+    gap: 20px !important;
+  }
+
+  .menu-item.col-4{
+    padding-bottom: 2em !important;
+    
+  }
+  
+   .menu-item.col-4 img{
+    width: 80% !important;
+  }
+
+  .about-container{
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+
+  .about-item img{
+    width: 80% !important;
+    margin-left: 3em !important;
+  }
+
+  
+  .about-item p, h3{
+    margin-right: 3em !important;
+    margin-top: 1em !important;
+  }
+  
+
+  .reservation-container{
+    flex-direction: row !important;
+  }
+ 
+  
+  .reservation-form{
+    margin-left: 5em !important;
+  }
+  
+  
+  input.form-control{
+    width: 100% !important;
+    padding-right: 10em!important;
+    
+  }
+  
+  .map img{
+    width: 80% !important;
+    height: 100% !important;
+    margin-left: 3em !important;
+    margin-top: 0.5em !important;
+    
+  }
+  
+  .carousel-item div div .male-customer-div,.female-customer-div{
+    padding: 1em !important;
+    width: 80% !important;
+    padding-bottom: 2.5em !important;
+   
+  }
+
+  .footer-container{
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .footer-item h3{
+    font-size: 1.8rem !important;
+    text-align: center !important;
+  }
+
+  .footer-item p{
+    text-align: center !important;
+  }
+
+}
+
+@media (max-width: 768px) { 
+
+  .background-image{
+    width: 100%!important;
+    height: 100%;
+    min-height: 80vh;
+   
+  }
+
+  .background-image img{
+    width: 100vw !important;
+    height: 80%;
+   
+  }
+
+
+  .navbar-toggler{
+    margin-left: 22em !important;
+  }
+
+  
+  .discount-section{
+    margin: 1em auto !important;
+  }
+
+
+  .discount-section .container-fluid{
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 2px !important;
+  }
+ 
+
+  .discount-item {
+    width: 25em !important;
+    margin: 0 auto !important;
+    margin-left: 3em !important;
+  
+  }
+
+  
+  .our-menu-section{
+    padding-bottom: 8em !important;
+   
+  }
+
+  
+  .our-menu-section .menu-container .menu-item.col-4{
+   width: 18em !important;
+   justify-content: space-evenly !important;
+
+  }
+
+  .menu-container{
+    gap: 20px !important;
+    margin-right: 5em !important;
+  }
+
+  .menu-item.col-4{
+    padding-bottom: 2em !important;
+    
+  }
+  
+   .menu-item.col-4 img{
+    width: 80% !important;
+  }
+
+  .reservation-container{
+    flex-direction: row !important;
+  }
+ 
+  
+  .reservation-form{
+    margin-left: 3em !important;
+  }
+  
+  
+  input.form-control{
+    width: 100% !important;
+    padding-right: 8em!important;
+    
+  }
+  
+  .map img{
+    width: 70% !important;
+    height: 100% !important;
+    margin-right: 8em !important;
+    margin-top: 0.5em !important;
+    
+  }
+
+  .footer-item{
+    margin-right: 2em !important;
+  }
+  
+  .footer-item h3{
+    font-size: 1.5rem !important;
+    text-align: center !important;
+   
+  }
+
+  .footer-item p, .footer-item li a{
+    font-size: 0.9rem !important;
+    text-align: center !important;
+  }
+
+  
+}
+
+
+@media(max-width:575.98px){
+
+  .background-image{
+    width: 100%!important;
+    height: 100%;
+    min-height: 100vh;
+   
+  }
+
+  .background-image img{
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .navbar-toggler{
+    margin-left: 12em !important;
+    margin-top: 2em !important;
+  }
+
+  .center-nav{
+    margin-left: auto !important;
+  }
+
+  .right-nav{
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .hero-section{
+    top: 20% !important;
+    left: 5% !important;
+  }
+
+  .hero-section h1{
+    font-size: 2rem !important;
+  }
+
+  .hero-section p{
+    font-size: 0.8rem !important;
+  }
+
+
+  
+  .carousel-inner{
+    height: 500px !important;
+  }
+
+  .carousel-item p{
+    font-size: 0.8rem !important;
+  }
+  
+
+  .discount-section{
+    margin: 5em auto !important;
+  }
+
+  .discount-section .container-fluid{
+    gap: 50px !important;
+  }
+ 
+
+  .discount-item {
+    width: 22em !important;
+    margin: 0 auto !important;
+  }
+
+  .image-container{
+    width: 10em !important;
+    padding: 0;
+  }
+
+  .about-container{
+    flex-direction: column-reverse !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+  }
+
+  .about-item{
+    margin-left: 1.5em !important;
+  }
+
+
+  .reservation-container{
+    flex-direction: column !important;
+  }
+ 
+  
+  .reservation-form{
+    margin-left: 1em !important;
+  }
+  
+  
+  input.form-control{
+    width: 100% !important;
+    padding-right: 4em!important;
+    
+  }
+  
+  .map img{
+    width: 80% !important;
+    height: 100% !important;
+    margin-right: 7em !important;
+    margin-top: 0.5em !important;
+    
+  }
+
+ 
+  .carousel-item .d-flex {
+    flex-direction: column !important; 
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .male-customer-div, .female-customer-div {
+    width: 100% !important; 
+    margin-bottom: 2rem; 
+  
+  }
+
+  .carousel-item img {
+    width: 50% !important; 
+  }
+
+  footer{
+    margin: 0 auto !important;
+  }
+
+.footer-container{
+  flex-direction: column !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+
+}
+
+.footer-item p, li{
+  font-size: 0.8rem !important;
+}
+ 
+
+
+}
+
+@media (max-width: 450px){
+
+  .background-image{
+    width: 100%!important;
+    height: 100%;
+    min-height: 100vh;
+   
+  }
+
+  .background-image img{
+    width: 100vw !important;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+}
+
+
+
